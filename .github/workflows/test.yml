@@ -1,8 +1,4 @@
-name: main
-
-permissions:
-  id-token: write # This is required for requesting the JWT
-  contents: read  # This is required for actions/checkout
+name: test
 
 on:
   push:
@@ -27,6 +23,3 @@ jobs:
       
       - name: Test
         run: deno test -R
-
-      - name: Publish
-        run: deno publish --allow-dirty
