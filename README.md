@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/mapbox/geojson-normalize.svg)](https://travis-ci.org/mapbox/geojson-normalize)
+# @birkskyum/geojson-normalize
+
+[![JSR](https://jsr.io/badges/@birkskyum/geojson-normalize)](https://jsr.io/@birkskyum/geojson-normalize)
+
 
 # geojson-normalize
 
@@ -6,8 +9,12 @@ Normalize any GeoJSON object into a GeoJSON FeatureCollection.
 
 ## install
 
-    npm install --save @mapbox/geojson-normalize
+npx jsr add @birkskyum/geojson-normalize
 
-## api
+## import
 
-    normalize(object) -> featurecollection object
+import {normalize} from "@birkskyum/geojson-normalize";
+
+## use
+
+normalize(object) -> FeatureCollection
