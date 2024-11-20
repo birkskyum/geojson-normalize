@@ -9,12 +9,18 @@ Normalize any GeoJSON object into a GeoJSON FeatureCollection.
 
 ## install
 
+```sh
 npx jsr add @birkskyum/geojson-normalize
+```
 
 ## import
 
+```ts
 import {normalize} from "@birkskyum/geojson-normalize";
+```
 
 ## use
 
-normalize(object) -> FeatureCollection
+```ts
+const featureCollection = normalize(object);
+```
