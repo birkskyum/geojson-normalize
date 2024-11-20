@@ -1,0 +1,11 @@
+{
+  "license": "ISC",
+  "author": "Birk Skyum",
+  "name": "@birkskyum/geojson-normalize",
+  "version": "1.0.0",
+  "exports": "./index.ts",
+  "bin": { "geojson-normalize": "geojson-normalize" },
+  "imports": {
+    "@types/geojson": "npm:@types/geojson@^7946.0.14"
+  }
+}
