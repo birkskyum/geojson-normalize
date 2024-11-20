@@ -1,4 +1,4 @@
-import type { FeatureCollection, GeoJsonObject, Geometry, Feature } from "npm:@types/geojson";
+import type { FeatureCollection, GeoJsonObject, Geometry, Feature } from "npm:@types/geojson@7946.0.14";
 
 const types: { [key: string]: string } = {
   Point: "geometry",
