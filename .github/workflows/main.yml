@@ -22,7 +22,7 @@ jobs:
         run: deno i
       
       - name: Test
-        run: deno test
+        run: deno test -R
 
       - name: Publish
         run: deno publish
